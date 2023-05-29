@@ -1,3 +1,20 @@
-secrect.txt
-#Pod files to be ignore 
-# #.txt will ignore all txt files 
+# Created by .ignore support plugin (https://www.jetbrains.com/help/pycharm/settings-tools-ignore.html)
+
+### Django ###
+*.pyc
+__pycache__/
+*.pyo
+*$py.class
+db.sqlite3
+media/
+static/
+.settings/
+.env
+
+### PyCharm ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
